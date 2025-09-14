@@ -9,7 +9,7 @@
 	<InteractableComponent
 		_tags="enter_portal"
 		radius="20"
-		ui_text="Press $0 to return."
+		ui_text="$dimensional_rifts_open"
 		name="interact"
 	/>
 
