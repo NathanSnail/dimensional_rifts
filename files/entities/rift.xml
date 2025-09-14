@@ -1,6 +1,6 @@
 <Entity>
 	<SpriteComponent
-		image_file="mods/noita.fairmod/files/content/funky_portals/tear.png"
+		image_file="mods/dimensional_rifts/files/sprites/tear.png"
 		offset_x="40"
 		offset_y="33"
 		z_index="5"
@@ -62,7 +62,7 @@
 		velocity_always_away_from_center="11"
 		render_back="1"
 		is_emitting="1"
-		image_animation_file="mods/noita.fairmod/files/content/funky_portals/tear_emitter.png"
+		image_animation_file="mods/dimensional_rifts/files/sprites/tear_emitter.png"
 		image_animation_speed="5"
 		image_animation_loop="1"
 	/>
@@ -116,7 +116,7 @@
 		velocity_always_away_from_center="0"
 		render_back="1"
 		is_emitting="1"
-		image_animation_file="mods/noita.fairmod/files/content/funky_portals/tear_emitter.png"
+		image_animation_file="mods/dimensional_rifts/files/sprites/tear_emitter.png"
 		image_animation_speed="5"
 		image_animation_loop="1"
 	/>
