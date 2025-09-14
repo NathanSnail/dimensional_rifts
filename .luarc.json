@@ -1,5 +1,6 @@
 {
     "diagnostics.globals": [
-        "spawn_heart"
+        "spawn_heart",
+        "death"
     ]
 }

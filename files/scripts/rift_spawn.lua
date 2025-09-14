@@ -1,5 +1,10 @@
 local me = GetUpdatedEntityID()
 local x, y = EntityGetTransform(me)
+
+local id = tonumber(GlobalsGetValue("dimensional_rifts.id", "0"))
+id = id + 1
+GlobalsSetValue("dimensional_rifts.id", tostring(id))
+
 for angle = 0, 360, 36 do
 	local theta = angle * math.pi / 180
 	local length = 160
@@ -12,6 +17,6 @@ for angle = 0, 360, 36 do
 	EntityAddComponent2(
 		portal,
 		"VariableStorageComponent",
-		{ name = "dimensional_rifts.tier", value_int = tier }
+		{ name = "dimensional_rifts.tier", value_int = tier, value_float = id }
 	)
 end
